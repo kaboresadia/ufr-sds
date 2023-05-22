@@ -1,0 +1,87 @@
+/* *{
+    box-shadow: 0 0 0 2px red;
+} */
+container-fluid1{
+    /* background-color: white; */
+    padding: 40px 30px;
+
+
+}
+.s0{
+    background-color: white;
+    padding: 20px 10px;
+}
+.s2{
+    position: relative;
+    left: 30px;
+}
+.a2{
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+}
+.s3{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    
+    
+}
+.s4{
+    position: relative;
+    left: 200px;
+}
+.b2{
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+}
+.c1{
+    color: white;
+    text-align: center;
+}
+
+.s5{
+    background-color: #039031;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+/* .form-group{
+    background-color: #039031;
+} */
+.formulaire{
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #039031;
+    
+}
+
+.s7{
+    background-color: #039031;
+}
+    
+    
+.liste{
+    background-color: #039031;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+}
+label{
+    color: white;
+}
+.send{
+    text-align: center;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+.footer{
+    background-color: #039031;
+    padding: 20px 20px;
+    text-align: center;
+}
