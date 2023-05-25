@@ -6,27 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>liste des etudiants</title>
     <link rel="stylesheet" href="style/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <!-- <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                    <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">Nom</th>
-                            <th scope="col">Prenom</th>
-                            <th scope="col">Date-de-naissance</th>
-                            <th scope="col">Genre</th>
-                            <th scope="col">Date_d_adhesion</th>
-                            <th scope="col">Personne_a_prevenir</th>
-                          </tr>
-                        </thead>
-                </table>
-            </div>
-        </div>
-    </div> -->
+<div class="container-fluid s0">
+    <div class="row ">
+      <div class="col-md-4 col-sm-4 s2">
+        <h2 class="a1">Université-Joseph-Ki-Zerbo</h2>
+        <h4 class="a2">UFR : Sciences de la Santé</h4>
+      </div>
+      <div class="col-md-4 col-sm-4 s3">
+        <img src="images/logo ujkz1.png" alt="logo" white="100px" height="100px">
+      </div>
+      <div class="col-md-4 col-sm-4 s4">
+        <h2 class="b1">Burkina-Faso</h2>
+        <h6 class="b2">Unité-Progrès-justice</h6>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid s5">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h3 class="c1">Liste des étudiants inscrits</h3>
+      </div>
+    </div>
+  </div>
+
     <?php
     // Connexion à la base de données
     include('connexion.php');
@@ -37,7 +43,7 @@
     $stmt = $bdd->query($sql);
 
     // Traitement des résultats
-    echo "<table class='table table-hover'>";
+    echo "<table class='table '>";
     echo "<tr class='bg-secondary text-white'>
     <th scope='col'>nom</th>
     <th scope='col' class=''>prenom</th>
@@ -57,8 +63,14 @@
         echo "</tr>";
     }
     echo "</table>";
-?>
    
+?>
+ <a href="index.php"><button type="button" class="text-white rounded liste">Revenir a la page d'accueil</button></a>
+   <div class="container-fluid footer  mt-3">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <p class="text-white">&copy;Copyright 2023.Tous droit Réservées</p>
+      </div>
     
 
 </body>

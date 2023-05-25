@@ -12,7 +12,7 @@
 
 <body>
   <div class="container-fluid s0">
-    <div class="row s1">
+    <div class="row ">
       <div class="col-md-4 col-sm-4 s2">
         <h2 class="a1">Université-Joseph-Ki-Zerbo</h2>
         <h4 class="a2">UFR : Sciences de la Santé</h4>
@@ -53,7 +53,7 @@
             <option value="">Sélectionnez</option>
             <option value="homme">Homme</option>
             <option value="femme">Femme</option>
-            <option value="autre">Autre</option>
+          
           </select><br />
 
           <label for="date_d_adhesion">Date d'adhésion :</label>
@@ -66,7 +66,7 @@
         </form>
       </div>
       <div class="col-md-6 col-sm-6">
-        <a href="liste.php"><button type="button"class="text-white rounded liste">liste des étudiants</button></a>
+        <a href="liste.php"><button type="button" class="text-white rounded liste">liste des étudiants</button></a>
       </div>
     </div>
   </div>
@@ -75,9 +75,7 @@
       <div class="col-md-12 col-sm-12">
         <p class="text-white">&copy;Copyright 2023.Tous droit Réservées</p>
       </div>
-
     </div>
-
   </div>
 </body>
 
